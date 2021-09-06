@@ -11,6 +11,15 @@ keypoints:
 - You can use intermediate files to let different Docker containers talk to each other.
 - Docker can be used in combinination with MyBinder to reproduce complex software environments
 ---
+## Using docker in research
+This chapter will contain some practical examples to give you a sense of how docker can be used 
+in research.
+
+> ## Biocontainers
+> [Biocontainers](https://biocontainers.pro/) is an open-source project aimed at creating 
+> infrastructure and guidelines for creating, managing and distributing bioinformatic software 
+> both as conda packages and docker containers.
+{: .callout}
 
 > ## Python Version Conflict
 >
