@@ -240,16 +240,16 @@ type `exit`.
 >
 > > ## Solution 1 -- Interactive
 > >
-> > Run an interactive busybox container -- you can use `docker image pull` first, or just
+> > Run an interactive ubuntu container -- you can use `docker image pull` first, or just
 > > run it with this command:
 > > ~~~
-> > $ docker container run -it ubnutu sh
+> > $ docker container run -it ubuntu sh
 > > ~~~
 > > {: .language-bash}
 > > 
 > > OR you can get the bash shell instead
 > > ~~~
-> > $ docker container run -it ubnutu bash
+> > $ docker container run -it ubuntu bash
 > > ~~~
 > > {: .language-bash}
 > > 
@@ -270,7 +270,7 @@ type `exit`.
 >
 > > ## Solution 2 -- Run commands
 > >
-> > Run a ubuntu container, first with a command to read out the Linux version:
+> > Run an ubuntu container, first with a command to read out the Linux version:
 > > ~~~
 > > $ docker container run ubuntu cat /etc/os-release
 > > ~~~
