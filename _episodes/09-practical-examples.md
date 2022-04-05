@@ -13,6 +13,15 @@ keypoints:
 - By including a Dockerfile that contains the necessary dependencies alongside your code it will 
   be more easily reproducible 
 ---
+## Using docker in research
+This chapter will contain some practical examples to give you a sense of how docker can be used 
+in research.
+
+> ## Biocontainers
+> [Biocontainers](https://biocontainers.pro/) is an open-source project aimed at creating 
+> infrastructure and guidelines for creating, managing and distributing bioinformatic software 
+> both as conda packages and docker containers.
+{: .callout}
 
 > ## Python Version Conflict
 >
